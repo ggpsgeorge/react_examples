@@ -14,7 +14,6 @@ function App() {
       <Header></Header>
       <Food></Food>
       <UserProfile></UserProfile>
-      <ScrollView></ScrollView>
       <MyButton></MyButton>
       <Footer></Footer>
     </>
