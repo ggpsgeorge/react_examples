@@ -4,9 +4,9 @@ function UserProfile() {
 
     return(
         <div className='profile-card'>
-            <img className='profile-image' src={profilePic} alt="" />
-            <h2>Name</h2>
-            <p>Description</p>
+            <img className='profile-image' src={profilePic} alt="profile picture" />
+            <h2>Profile Name</h2>
+            <p>Profile Description</p>
         </div>
     );
 
