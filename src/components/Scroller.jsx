@@ -1,7 +1,9 @@
+import { useState } from "react";
+
 function Scroller() {
     
     const items = ["Whatever", "Sup", "Yeah"]
-    
+
     return(
         <div className="scroller">
             {items.map((item) => {
