@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function Scroller() {
     
     const items = ["Whatever", "Sup", "Yeah"]

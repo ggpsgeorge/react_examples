@@ -1,26 +1,19 @@
-import { useState } from 'react'
 import './App.css'
+import Patient from './Patient'
+import Pokemon from './Pokemon'
 import Scroller from './Scroller'
-import Student from './StudentProps'
+import Student from './Student'
 import UserProfile from './UserProfile'
-import { useEffect } from 'react'
-import axios from 'axios'
 
 function App() {
 
-  const [student, setStudent] = useState("")
-
-  fetch("https://jsonplaceholder.typicode.com/users/1")
-  .then((response) => response.json())
-  .then((user) => {
-    setStudent(user.name)
-  });
-
   return (
     <>
+      <Pokemon></Pokemon>
+      <Patient></Patient>
       <Scroller></Scroller>
       <UserProfile></UserProfile>
-      <Student name={student}></Student>
+      <Student name={"Goku"}></Student>
     </>
   )
 }
