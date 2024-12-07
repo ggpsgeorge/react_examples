@@ -1,0 +1,17 @@
+.welcome-message {
+    font-size: 1.2em;
+    width: 100vw;
+    color: white;
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.login-message {
+    font-size: 1.2em;
+    width: 100vw;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}

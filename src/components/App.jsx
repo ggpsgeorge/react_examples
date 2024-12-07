@@ -1,21 +1,23 @@
 import './App.css'
-import Patient from './Patient'
-import PatientScroller from './PatientScroller'
-import Pokemon from './Pokemon'
+import MyButton from './MyButton'
 import Scroller from './Scroller'
 import Student from './Student'
 import UserProfile from './UserProfile'
+import Pokemon from './Pokemon'
+import UserGreetings from './UserGreetings/UserGreetings'
 
 function App() {
 
   return (
     <>
-      <Pokemon></Pokemon>
-      <Patient></Patient>
+      {/* <Pokemon></Pokemon>
       <Scroller></Scroller>
-      <PatientScroller></PatientScroller>
       <UserProfile></UserProfile>
-      <Student name={"Goku"}></Student>
+      <MyButton></MyButton>
+      <Student name={"Goku"} age={40} isRecoverying={true}></Student>
+      <Student></Student> */}
+      <UserGreetings></UserGreetings>
+      <UserGreetings isLoggedIn={true} userName="Bardock"></UserGreetings>
     </>
   )
 }
