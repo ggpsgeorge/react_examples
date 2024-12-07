@@ -2,8 +2,12 @@ import profilePic from '../assets/profilePic.png'
 
 function UserProfile() {
 
+    const handleClick = (e) => {
+        console.log(e)
+    } 
+
     return(
-        <div className='profile-card'>
+        <div onClick={(e) => handleClick(e)} className='profile-card'>
             <img className='profile-image' src={profilePic} alt="profile picture" />
             <h2>Profile Name</h2>
             <p>Profile Description</p>
