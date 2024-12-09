@@ -1,0 +1,18 @@
+.counter-number {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 0;
+}
+
+.counter-button {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5px;
+    background-color: hsl(247, 68.20%, 48.00%);
+    color: antiquewhite;
+}
+
+.counter-button:hover {
+    background-color: hsl(247, 68.20%, 28.00%);
+    cursor: pointer;
+}
