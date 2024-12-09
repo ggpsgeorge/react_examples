@@ -25,7 +25,7 @@ function InputOnChange() {
             <p>Name: {name} </p>
             <textarea value={comment} onChange={handleComment} placeholder="Your comments here"></textarea>
             <p>Text: {comment}</p>
-            <select name={product} onClick={handleProduct}>
+            <select name={product} onChange={handleProduct}>
                 <option value="Iphone 13">Iphone 13</option>
                 <option value="Playstation 5">Playstation 5</option>
                 <option value="Fiat Uno">Fiat Uno</option>
