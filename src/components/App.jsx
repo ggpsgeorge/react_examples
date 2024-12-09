@@ -8,6 +8,7 @@ import UserGreetings from './UserGreetings/UserGreetings'
 import ButtonClick from './ButtonClick'
 import Counter from './Counter/Counter'
 import InputOnChange from './InputOnChange/InputOnChange'
+import InputOnChange2 from './InputOnChange/InputOnChange2'
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
       {/* <UserGreetings></UserGreetings> */}
       {/* <UserGreetings isLoggedIn={true} userName="Bardock"></UserGreetings> */}
       {/* <Counter></Counter> */}
-      <InputOnChange></InputOnChange>
+      {/* <InputOnChange></InputOnChange> */}
+      <InputOnChange2></InputOnChange2>
     </>
   )
 }
