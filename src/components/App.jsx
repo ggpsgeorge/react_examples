@@ -9,6 +9,7 @@ import ButtonClick from './ButtonClick'
 import Counter from './Counter/Counter'
 import InputOnChange from './InputOnChange/InputOnChange'
 import InputOnChange2 from './InputOnChange/InputOnChange2'
+import ColorPicker from './ColorPicker/ColorPicker'
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
       {/* <UserGreetings isLoggedIn={true} userName="Bardock"></UserGreetings> */}
       {/* <Counter></Counter> */}
       {/* <InputOnChange></InputOnChange> */}
-      <InputOnChange2></InputOnChange2>
+      {/* <InputOnChange2></InputOnChange2> */}
+      {/* <ColorPicker></ColorPicker> */}
     </>
   )
 }

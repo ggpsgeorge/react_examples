@@ -1,7 +1,16 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .counter-number {
+    width: 60vw;
     text-align: center;
     font-size: 100px;
     margin-top: 0;
+    border: 5px dotted hsl(195, 40.40%, 63.10%);
 }
 
 .counter-button {

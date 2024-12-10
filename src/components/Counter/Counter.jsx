@@ -6,7 +6,7 @@ function Counter() {
     const [counter, setCounter] = useState(0)
 
     const handleClickDecrease = () => {
-        setCounter(counter - 1)
+        setCounter(c => counter - 1)
     }
 
     const handleClickReset = () => {
@@ -14,7 +14,7 @@ function Counter() {
     }
 
     const handClickIncrease = () => {
-        setCounter(counter + 1)
+        setCounter(c => counter + 1)
     }
 
     return ( 

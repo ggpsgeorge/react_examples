@@ -5,18 +5,17 @@ function InputOnChange() {
     const [name, setName] = useState("")
 
     const handleInputName = (event) => {
-        setName(event.target.value)
+        setName(n => event.target.value)
     }
 
     const [comment, setComment] = useState("")
     const handleComment = (event) => {
-        setComment(event.target.value)
+        setComment(c => event.target.value)
     }
 
     const [product, setProduct] = useState("")
     const handleProduct = (event) => {
-        console.log(event)
-        setProduct(event.target.value)
+        setProduct(p => event.target.value)
     }
 
     return ( 
