@@ -11,6 +11,8 @@ import InputOnChange from './InputOnChange/InputOnChange'
 import InputOnChange2 from './InputOnChange/InputOnChange2'
 import ColorPicker from './ColorPicker/ColorPicker'
 import FavoriteCar from './FavoriteCar/FavoriteCar'
+import ListOfThings from './ListOfThings/ListOfThings'
+import ListOfGames from './ListOfGames/ListOfGames'
 
 function App() {
 
@@ -29,7 +31,9 @@ function App() {
       {/* <InputOnChange></InputOnChange> */}
       {/* <InputOnChange2></InputOnChange2> */}
       {/* <ColorPicker></ColorPicker> */}
-      <FavoriteCar></FavoriteCar>
+      {/* <FavoriteCar></FavoriteCar> */}
+      {/* <ListOfThings></ListOfThings> */}
+      <ListOfGames></ListOfGames>
     </>
   )
 }
