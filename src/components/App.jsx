@@ -13,6 +13,12 @@ import ColorPicker from './ColorPicker/ColorPicker'
 import FavoriteCar from './FavoriteCar/FavoriteCar'
 import ListOfThings from './ListOfThings/ListOfThings'
 import ListOfGames from './ListOfGames/ListOfGames'
+import ComponentA from './UseContextComponents/ComponentA'
+
+import "./UseContextComponents/UseContext.css"
+import ComponentB from './UseContextComponents/ComponentB'
+import TitleCounter from './Resize/TitleCounter'
+import Resize from './Resize/Resize'
 
 function App() {
 
@@ -33,7 +39,12 @@ function App() {
       {/* <ColorPicker></ColorPicker> */}
       {/* <FavoriteCar></FavoriteCar> */}
       {/* <ListOfThings></ListOfThings> */}
-      <ListOfGames></ListOfGames>
+      {/* <ListOfGames></ListOfGames> */}
+      {/* Use of useContext to make a variable availabre in another component */}
+      {/* <ComponentA></ComponentA>  */}
+      {/* Use of userEffect, that can be on every re-render, mount or change of value + mount */}
+      {/* <TitleCounter></TitleCounter> */}
+      <Resize></Resize>
     </>
   )
 }

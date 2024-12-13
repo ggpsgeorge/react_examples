@@ -1,0 +1,49 @@
+.game-list-container {
+    font-family: 'Courier New', Courier, monospace;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-list-container h2 {
+    font-size: 1.7em;
+    padding: 7px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+
+}
+
+.game-list-container input {
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    margin: 0.1em;
+    border-radius: 5px;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+.game-list-container input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+}
+
+.game-list-container button {
+    color: rgb(238, 221, 221);
+    background-color: rgb(20, 101, 223);
+    padding: 0.4em;
+    margin: 0.2em;
+    border-radius: 10px;
+}
+
+.game-list-container button:hover {
+    background-color: rgb(28, 38, 224);
+    cursor: pointer;
+}
