@@ -19,6 +19,10 @@ import "./UseContextComponents/UseContext.css"
 import ComponentB from './UseContextComponents/ComponentB'
 import TitleCounter from './Resize/TitleCounter'
 import Resize from './Resize/Resize'
+import Accordion from './AccordionPanel/Accordion'
+import TabSwitcher from './TabSwitcher/TabSwitcher'
+import { tabsTest } from './testVars'
+import DigitalClock from './DigitalClock/DigitalClock'
 
 function App() {
 
@@ -44,7 +48,10 @@ function App() {
       {/* <ComponentA></ComponentA>  */}
       {/* Use of userEffect, that can be on every re-render, mount or change of value + mount */}
       {/* <TitleCounter></TitleCounter> */}
-      <Resize></Resize>
+      {/* <Resize></Resize> */}
+      {/* <Accordion></Accordion> */}
+      {/* <TabSwitcher tabs={tabsTest} /> */}
+      <DigitalClock></DigitalClock>
     </>
   )
 }

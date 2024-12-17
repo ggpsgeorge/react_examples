@@ -15,7 +15,7 @@ function Resize() {
 
     }, [])
     
-    function handleResize(event) {
+    function handleResize() {
         setHeight(window.innerHeight)
         setWidth(window.innerWidth)
     }
