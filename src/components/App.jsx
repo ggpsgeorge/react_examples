@@ -22,7 +22,7 @@ import Resize from './Resize/Resize'
 import Accordion from './AccordionPanel/Accordion'
 import TabSwitcher from './TabSwitcher/TabSwitcher'
 import { tabsTest } from './testVars'
-import DigitalClock from './DigitalClock/DigitalClock'
+// import DigitalClock from './DigitalClock/DigitalClock'
 
 function App() {
 
@@ -51,7 +51,7 @@ function App() {
       {/* <Resize></Resize> */}
       {/* <Accordion></Accordion> */}
       {/* <TabSwitcher tabs={tabsTest} /> */}
-      <DigitalClock></DigitalClock>
+      {/* <DigitalClock></DigitalClock> */}
     </>
   )
 }
